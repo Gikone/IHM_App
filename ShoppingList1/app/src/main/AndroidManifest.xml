@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.ubu.ihm.shoppinglist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Resolucion"></activity>
+        <activity android:name=".Elegida3" />
+        <activity android:name=".Elegida2" />
+        <activity android:name=".Elegida1" />
+        <activity android:name=".Comparador" />
+        <activity android:name=".Lista" />
+        <activity android:name=".versiones" />
+        <activity android:name=".terminosdeservicio" />
+        <activity android:name=".Soporte" />
+        <activity android:name=".Licencias" />
+        <activity android:name=".Faq" />
+        <activity android:name=".Contacto" />
+        <activity android:name=".Acercade" />
+        <activity android:name=".Configuracion" />
+        <activity android:name=".Barcode" />
+        <activity android:name=".Lista_vacia" />
+        <activity android:name=".Compras" />
+        <activity android:name=".Ofertas" />
+        <activity android:name=".Inicio" />
+        <activity android:name=".Registro" />
+        <activity android:name=".Carga" />
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
